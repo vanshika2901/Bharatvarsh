@@ -53,11 +53,13 @@ body{
   font-family: 'Amita', cursive;
   font-style: normal;
   font-weight: bold;
-  font-size:30px;
-  line-height: 35px;
+  font-size:1.5rem;
+  line-height: 1.5rem;
   color: #511616;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
 .navbar-custom .navbar-toggler{
   border-color:#511616;
   color:#511616;
@@ -67,16 +69,19 @@ body{
 
 }
 .navbar-custom .nav-link{
-  font-size: 1rem;
-  font-family: Amiko;
+font-family: Amiko;
 font-style: normal;
 font-weight: 400;
-font-size: 23px;
+font-size: 1.25rem;
 line-height: 31px;
 display: flex;
 align-items: center;
 
 color: rgba(81, 22, 22, 1);
+}
+
+.navbar-custom .nav-link:hover{
+color: rgba(81, 22, 22, 0.7);
 }
 
 .btn{
@@ -118,17 +123,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media only screen and (max-width: 1020px) {
 .amita{
-  font-size: 40px;
+  font-size: 2rem;
 }
 }
 @media only screen and (max-width: 1020px) {
 .taj{
   margin-top:13.5rem;
-}
-}
-@media only screen and (max-width: 400px) {
-.cate{
-  font-size: 1.4rem;
 }
 }
 
@@ -160,12 +160,10 @@ input{
   background-color: #FDF5F4;
 }
 
-a{
+/*a{
   color:#EE6457;
-}
-a:hover{
-  color: rgba(81, 22, 22, 0.7)
-}
+}*/
+
 section{
   padding-bottom: 15vw;
   overflow-x: hidden;
@@ -202,7 +200,28 @@ div{
   font-family: AmstelvarAlpha;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 1.25rem;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(81, 22, 22, 1);
+}
+a{
+color: rgba(81, 22, 22, 1);
+}
+
+/*@media only screen and (max-width: 1020px) {
+.card-body{
+  overflow-y: hidden;
+  height:10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family: AmstelvarAlpha;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
 line-height: 36px;
 display: flex;
 align-items: center;
@@ -210,7 +229,10 @@ text-align: center;
 
 color: #511616;
 }
-
+}*/
+a:hover{
+  color: rgba(81, 22, 22, 0.7)
+}
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -417,7 +439,7 @@ input[type=submit] {
       <div class="card" style="width: 15rem;">
   <img class="card-img-top" src="https://i.ytimg.com/vi/49HTIoCccDY/maxresdefault.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text cate">Category-1</p>
+    <a href=""><p class="card-text">Category-1</p></a>
   </div>
 </div>
     </div>
@@ -425,7 +447,7 @@ input[type=submit] {
       <div class="card" style="width: 15rem;">
   <img class="card-img-top" src="https://i.ytimg.com/vi/49HTIoCccDY/maxresdefault.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text cate">Category-2</p>
+    <a href=""><p class="card-text">Category-2</p></a>
   </div>
 </div>
     </div>
@@ -433,7 +455,7 @@ input[type=submit] {
       <div class="card" style="width: 15rem;">
   <img class="card-img-top" src="https://i.ytimg.com/vi/49HTIoCccDY/maxresdefault.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text cate">Category-3</p>
+    <a href=""><p class="card-text">Category-3</p></a>
   </div>
 </div>
     </div>
@@ -441,7 +463,7 @@ input[type=submit] {
       <div class="card" style="width: 15rem;">
   <img class="card-img-top" src="https://i.ytimg.com/vi/49HTIoCccDY/maxresdefault.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text cate">Category-4</p>
+    <a href=""><p class="card-text">Category-4</p></a>
   </div>
 </div>
     </div>
