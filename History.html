@@ -31,12 +31,18 @@
   overflow-x: hidden;
 }
 .contain{
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, #FFF1E5 100%), url(Key.png) no-repeat center fixed ;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, #FFF1E5 100%), url("keymain.png") no-repeat center fixed ;
   /*background: url(https://i.ytimg.com/vi/49HTIoCccDY/maxresdefault.jpg) no-repeat center ;*/
   /*background-repeat: no-repeat;*/
   background-size: contain;
-
 }
+@media (max-width: 1200px) { 
+.contain{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, #FFF1E5 100%), url("keymain.png") no-repeat center;
+  background-size: cover;
+}
+}
+
  </style>
 </head>
 
@@ -67,8 +73,8 @@
   <section class="contain">
     <div style="padding-top: 2vw;">
       <div id="home" style="opacity: 0.75;" class="jumb container mt-0">
-        <p>Bharatvash is an open platform where you can share your thoughts and facts related to the history of The Great Bharatvarsh (India).
-        You can get authentic information about Indian Mytholigies. There are many misunderstanding related to the country, that could be made clear on Bharatvarsh platform. </p>
+      <!--  <p style="padding-top: 10vw;">Bharatvash is an open platform where you can share your thoughts and facts related to the history of The Great Bharatvarsh (India).
+        You can get authentic information about Indian Mytholigies. There are many misunderstanding related to the country, that could be made clear on Bharatvarsh platform. </p>-->
       </div>
     </div>
   </section>
